@@ -38,3 +38,5 @@ h1 ,h4{
 .active{
     display: block;
 }
+
+.off{display: none;}

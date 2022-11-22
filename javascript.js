@@ -1,4 +1,4 @@
-const SubEL = document.getElementById("btn");
+const SubEl = document.getElementById("btn");
 const thanksContainer = document.getElementById("thx-container")
 const valueRated = document.getElementById("value-rated")
 const R1 = document.getElementById("R1");
@@ -9,7 +9,7 @@ const R5 = document.getElementById("R5");
 
 value = 0;
 
-SubEL.addEventListener("click", ()=>{
+SubEl.addEventListener("click", ()=>{
     thanksContainer.classList.add("active")
 })
 
