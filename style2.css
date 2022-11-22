@@ -7,7 +7,7 @@ body{
     justify-content: center;
     overflow: hidden;
 }
-.thx-container{
+.thxcontainer{
     display: none;
     background-color: #1f2630;
     width: 300px;
