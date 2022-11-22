@@ -94,10 +94,12 @@ h2{
 
 #btn:hover{
     color: white;
+    filter: brightness(.6);
 }
 
 .but:hover{
     background-color: #f87413;
+    transition: 1s;
 }
 
 
