@@ -7,7 +7,7 @@ body{
     justify-content: center;
     overflow: hidden;
 }
-.thxcontainer{
+.thx-container{
     display: none;
     background-color: #1f2630;
     width: 300px;
@@ -31,6 +31,7 @@ p{
     border-radius: 10px;
     text-align: center;
 }
+
 h1 ,h4{
     color: white;
     text-align: center;
@@ -38,5 +39,10 @@ h1 ,h4{
 .active{
     display: block;
 }
+.off{
+    display: none;
+}
 
-.off{display: none;}
+.hoverC{
+    background-color: red;
+}
