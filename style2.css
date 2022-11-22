@@ -1,4 +1,3 @@
-
 body{
     background-color: #141519 ;
     height: 100vh;
@@ -8,7 +7,7 @@ body{
     justify-content: center;
     overflow: hidden;
 }
-.thx-container{
+.thxcontainer{
     display: none;
     background-color: #1f2630;
     width: 300px;
@@ -39,3 +38,5 @@ h1 ,h4{
 .active{
     display: block;
 }
+
+.off{display: none;}
