@@ -31,10 +31,18 @@ p{
     border-radius: 10px;
     text-align: center;
 }
+
 h1 ,h4{
     color: white;
     text-align: center;
 }
 .active{
     display: block;
+}
+.off{
+    display: none;
+}
+
+.hoverC{
+    background-color: red;
 }
