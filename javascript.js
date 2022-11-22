@@ -10,7 +10,7 @@ const R5 = document.getElementById("R5");
 value = 0;
 
 SubEl.addEventListener("click", ()=>{
-    thanksContainer.classList.add("active")
+    thxcontainer.classList.add("active")
 })
 
 // R1.addEventListener("click", ()=>{
