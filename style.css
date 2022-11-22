@@ -1,0 +1,31 @@
+body{
+    background-color: #141519 ;
+}
+.container{
+    background-color: #1f2630;
+    width: 300px;
+    padding: 50px;
+    border-radius: 10px;
+    display:block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+svg{
+    align-items: center;
+    margin-left: 60px;
+}
+p{
+    color: #f87413;
+    background-color: #474f5b;
+    padding: 10px 20px;
+    margin-left: 60px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1 ,h4{
+    color: white;
+    text-align: center;
+}
