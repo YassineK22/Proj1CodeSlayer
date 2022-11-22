@@ -1,4 +1,4 @@
-const submit = document.getElementById("btn");
+const SubEL = document.getElementById("btn");
 const thanksContainer = document.getElementById("thx-container")
 const valueRated = document.getElementById("value-rated")
 const R1 = document.getElementById("R1");
@@ -8,6 +8,10 @@ const R4 = document.getElementById("R4");
 const R5 = document.getElementById("R5");
 
 value = 0;
+
+SubEL.addEventListener("click", ()=>{
+    thanksContainer.classList.add("active")
+})
 
 R1.addEventListener("click", ()=>{
     R1.classList.add("hoverC")
@@ -32,11 +36,6 @@ R4.addEventListener("click", ()=>{
 R5.addEventListener("click", ()=>{
     R5.classList.add("hoverC")
     value = 5;
-})
-
-
-submit.addEventListener("click", ()=>{
-    thanksContainer.classList.add("active")
 })
 
 valueRated.innerText = value;
