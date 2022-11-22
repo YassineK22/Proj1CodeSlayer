@@ -7,6 +7,7 @@ const R3 = document.getElementById("R3");
 const R4 = document.getElementById("R4");
 const R5 = document.getElementById("R5");
 
+value = 0;
 
 R1.addEventListener("click", ()=>{
     R1.classList.add("hoverC")
@@ -14,12 +15,12 @@ R1.addEventListener("click", ()=>{
 })
 
 R2.addEventListener("click", ()=>{
-    R2.classList.add("hoverC")
+    R2.classList.add("hoverC");
     value = 2;
 })
 
 R3.addEventListener("click", ()=>{
-    R3.classList.add("hoverC")
+    R3.classList.add("hoverC");
     value = 3;
 })
 
